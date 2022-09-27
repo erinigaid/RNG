@@ -6,7 +6,6 @@ public class Modeling_Project_RNG {
 
     /*
         1. Linear Congruentail generator (LCG)
-        implemented by : Ahmed Farouk
      */
     public static void LCG(int X0, int mod, int a, int c, float[] GeneratedNums, float LengthOfgeneratedNums) {
 
@@ -23,7 +22,6 @@ public class Modeling_Project_RNG {
 
     /*
         3. Inversive Congruentail generator (ICG)
-        implemented by : Mahmoud Mustafa
      */
     public static void ICG(int seed, int modulus, int A, float[] GNums, float lenOfNum) {
 
@@ -40,7 +38,6 @@ public class Modeling_Project_RNG {
 
     /*
         5. Lagged Fibonacci generator (LFG)
-        implemented by : Erini Sabry
      */
     public static void LFG(int x0, int x1, int m, char sign, int size) {
         int nums[] = new int[size];
@@ -73,7 +70,6 @@ public class Modeling_Project_RNG {
 
     /*
         6. Mid-Square method (MSM)
-        implemented by : Ismail Ahmed
      */
     public static int MSM(int seed) {
 
@@ -148,7 +144,7 @@ public class Modeling_Project_RNG {
                     break;
 
                 case 1:
-                    // Ahmed - LCG
+                    // LCG
                     System.out.println("LCG");
                     System.out.println("X0=?");
                     int X0 = scan.nextInt();
@@ -166,14 +162,14 @@ public class Modeling_Project_RNG {
                     break;
 
                 case 2:
-                    // Nada - MCG
+                    // MCG
                     System.out.println("MCG");
 
                     count--;
                     break;
 
                 case 3:
-                    // Mahmoud - ICG
+                    // ICG
                     System.out.println("ICG");
 
                     System.out.println("Seed (X0) = ?");
@@ -201,7 +197,7 @@ public class Modeling_Project_RNG {
                     break;
 
                 case 5:
-                    // Erini - LFG
+                    // LFG
                     System.out.println("LFG");
 
                     System.out.print("x0 (seed): ");
@@ -224,7 +220,7 @@ public class Modeling_Project_RNG {
                     break;
 
                 case 6:
-                    // Ismail - MSM
+                    // MSM
                     System.out.println("MSM");
 
                     System.out.print("Enter initial number from only 4 digits : ");
